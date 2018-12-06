@@ -1,0 +1,50 @@
+/* flex box layout */
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 700px;
+    height: 500px;
+}
+
+header, footer{
+    background-color: brown;
+}
+
+.container{
+    display: flex;
+    flex:1;
+}
+.column1{
+    width: 200px;
+    background-color: purple;
+    margin: 20px;
+}
+.column2{
+    width: 300px;
+    height: 300px;
+    background-color: lightseagreen;
+    margin: 20px;
+} */
+
+
+
+
+/*create a chessbord */
+ 
+/* .container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 350px;
+  }
+div {
+    width: 50px;
+    height: 50px;
+    background-color:gray;
+  }
+div:nth-child(even){
+    background-color:white;
+  }  */

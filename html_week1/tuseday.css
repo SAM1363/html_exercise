@@ -1,0 +1,250 @@
+/* layout exercise */
+
+/* div{
+    color:aqua;
+    width: 500px;
+    margin: auto;
+}
+#header {
+    width: 500px;
+    background-color: pink;
+}
+#main {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: right;
+
+}
+#sidebar {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    float: left;
+}
+#footer {
+    background-color: blueviolet;
+    width: 500px;
+    margin: auto;
+} */
+
+
+
+
+/* two columns */
+
+/* #div1 {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    float: left;
+}
+#column1 {
+    height: 200px;
+    width: 20%;
+    background-color: yellow;
+    float: right;
+}
+#column2 {
+    height: 200px;
+    width: 80%;
+    background-color: red;
+    float: left;
+} */
+
+
+
+/* three columns */
+
+/* 
+#div2 {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    float: middle;
+}
+#column3 {
+    height: 200px;
+    width: 20%;
+    background-color: rgb(168, 12, 12);
+    float: right;
+}
+#column4 {
+    height: 200px;
+    width: 60%;
+    background-color: rgb(147, 150, 172);
+    float: right;
+}
+#column5 {
+    height: 200px;
+    width: 20%;
+    background-color: rgb(39, 211, 131);
+    float: right;
+} */
+
+
+
+
+/* nine grids */
+
+/* #div3  {
+    width: 306px;
+    height: 306px;
+    float: right;
+    margin: 100px;
+    
+}
+div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(31, 189, 189);
+    float: left; 
+}
+*/
+
+
+
+
+/* holy grail */
+
+/* #div4 {
+    height: 300px;
+    width: 300px;
+}
+#header {
+    height: 10%;
+    background-color: pink;
+}
+#left {
+    height: 80%;
+    width: 20%;
+    background-color: orangered;
+    float: left;
+}
+#middle {
+    height: 80%;
+    width: 60%;
+    background-color: blue;
+    float: left;
+}
+#right {
+    height: 80%;
+    width: 20%;
+    background-color: blueviolet;
+    float: left;
+}
+#footer {
+    color: red;
+    height: 10%;
+    position: relative;
+    top: 80%;
+    background-color: gray;
+} */
+
+
+
+
+/* float layout */
+
+/* .body {
+    height: auto;
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+header {
+    text-align: center;
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 10px;
+}
+footer {
+    text-align: right;
+    background-color: rgb(204, 221, 215);
+    border: 1px solid black;
+    padding: 10px;
+}
+#column1 {
+    border: 1px solid black;
+    background-color: bisque;
+    height: 300px;
+    width: 180px;
+     padding: 10px; 
+    margin: 10px;
+
+}
+#column2 {
+    border: 1px solid black;
+    background-color: rgb(157, 152, 180);
+    height: 250px;
+    width: 280px;
+    margin: 10px;
+    float: right;
+    position: relative;
+    top: -320px;
+} */
+
+
+
+
+/* mimic Google */
+/* 
+body {
+    text-align: center;
+    margin-top: 100px;
+}
+.search {
+    height: 35px;
+    width: 480px;
+    margin-bottom: 20px;
+    background-image: url(image/mic.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+button {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+} */
+
+
+
+
+/* medium blog */
+body {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.header {
+    position: relative;
+    left: 20%;
+}
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-height: 10em;
+    text-align: left;
+    margin-left: -90px
+}
+
+.profile-image {
+    border-radius: 50%;
+    transform: scale(0.3);
+    padding: 5px
+
+}
+.profile-info {
+    font-size: 10px;
+    margin: 0%;
+    margin-left: -5em
+}
+.follow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
