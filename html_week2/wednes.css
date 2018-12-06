@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column
+}
+.class1 {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: baseline;
+    color:white;
+    background-color: rgb(52, 119, 228);
+    /* width: 1000px; */
+     margin: 30px; 
+    padding: 20px; 
+}
+.class2 {
+    background-color: rgb(203, 220, 248);
+    margin-left: 60px;
+    padding: 30px;
+    width: 1000px
+}
+.class3{
+    margin: 30px;
+    padding: 10px
+}
+.class4{
+    margin: 30px;
+    padding: 10px
+}
