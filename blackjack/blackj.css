@@ -1,0 +1,42 @@
+
+#table{
+    border-radius: 40px;
+    height: 500px;
+    width: 1000px;
+    background-color: rgb(91, 121, 253);
+    margin: auto;
+    border: 5px solid black;
+}
+.buttons{
+    text-align: center;
+    margin-top: -100px; 
+}
+#box1{
+    background-color: rgb(164, 213, 255);
+    height: 85px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#box2{
+    background-color: rgb(164, 213, 255);
+    height: 85px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.table2{
+    margin-top: 70px;
+    
+}
+img{
+    height: 80px;
+    width: 50px;
+}
+#messages{
+    text-align: center;
+    font-size: 3em;
+}
